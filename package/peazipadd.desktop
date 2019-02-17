@@ -1,0 +1,29 @@
+[Desktop Entry]
+Type=Service
+Actions=peazipopen;peazipexthere;peazipextfolder;peazipadd;
+Encoding=UTF-8
+Version=1.4
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory,all/allfiles
+X-KDE-Priority=TopLevel
+X-KDE-Submenu=Extract/Compress Peazip
+X-KDE-Submenu-Icon=peazip
+
+[Desktop Action peazipopen]
+Exec=peazip -ext2browse %F
+Icon=peazip
+Name=Open PeaZip
+
+[Desktop Action peazipexthere]
+Exec=peazip -ext2here %F
+Icon=peazip
+Name=Extract - Here
+
+[Desktop Action peazipextfolder]
+Exec=peazip -ext2folder %F
+Icon=peazip
+Name=Extract - Here to new folder
+
+[Desktop Action peazipadd]
+Exec=peazip -add2archive %F
+Icon=peazip
+Name=Compress With PeaZip (rar/zip/tar/etc)
