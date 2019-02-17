@@ -1,12 +1,19 @@
+# Dolphin Services Easy Quick Install Suite 
+# https://github.com/Intika-Linux-Plasmoid
+# Contact: intika@librefox.org
+# Release: 2019 intika
+# License: GPL-3.0 
+# Version: 5.21
+
 [Desktop Entry]
 Type=Service
 Actions=peazipopen;peazipexthere;peazipextfolder;peazipadd;
 Encoding=UTF-8
-Version=1.4
 ServiceTypes=KonqPopupMenu/Plugin,inode/directory,all/allfiles
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Extract/Compress Peazip
 X-KDE-Submenu-Icon=peazip
+Version=5.21
 
 [Desktop Action peazipopen]
 Exec=peazip -ext2browse %F
